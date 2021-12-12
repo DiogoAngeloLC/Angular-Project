@@ -1,0 +1,22 @@
+.headerComponent{
+    height: 33vh;
+    background-image: url('../../../../images/RELOGIO.png');
+    background-size: 240px;
+    background-repeat: no-repeat;
+}
+.imgLogo{
+    display: flex;
+    justify-content: center;
+}
+.firstTitle{
+    display: flex;
+    justify-content: center;
+    margin: -50px 30px 0px 30px;
+}
+
+@media (max-width: 370px)
+    {
+        .firstTitle{
+        margin: -50px 10px 0px 10px;
+        }
+    }

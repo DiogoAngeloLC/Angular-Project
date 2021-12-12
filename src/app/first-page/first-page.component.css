@@ -1,0 +1,20 @@
+.divAvaliacao{
+    height: 100vh;
+    display: grid;
+    background-color: #e9e3f0;
+}
+
+.first-title{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    color: #7e479b;
+}
+.row{
+    display: inline-block;
+    text-align: center;
+}
+.text-home-margin{
+    display: grid;
+    align-self: center;
+}

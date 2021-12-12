@@ -1,0 +1,24 @@
+<div class="formComponent">
+<form class="form-estado">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>CRM</mat-label>
+      <input type="text" matInput placeholder="0000000">
+    </mat-form-field>
+  
+
+  <mat-form-field appearance="fill">
+    <mat-label>Selecione</mat-label>
+    <mat-select>
+    <mat-option value="obj" *ngFor="let obj of estados">{{ obj.nome }}</mat-option>
+      
+    </mat-select>
+  </mat-form-field>
+  <button mat-stroked-button (click)="openSnackBar('Dados Inseridos!', '')" style="background-color:#9c83be; color: white; font-size: 14px; font-weight: 300px; height: 40px;">CONTINUE</button>
+</form>
+</div>
+<div class="secondTitle">
+  <p style="text-align: center; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 15px; color: #7e479b; font-weight: 400;">
+      CANAL DE COMPRA EXCLUSIVO <br>
+      PARA CLASSE MÉDICA
+  </p>
+</div>
